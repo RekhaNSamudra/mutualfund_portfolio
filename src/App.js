@@ -36,6 +36,7 @@ function App() {
       );
     } else {
       setPortfolio([...portfolio, { ...item, units: 1 }]);
+      alert("added to the portfolio")
     }
   };
 
