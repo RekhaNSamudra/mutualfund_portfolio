@@ -22,7 +22,6 @@ portfolio.
 2. What more you would have done if you had more time, If there is anything.
 
 -> UI styling can be made better
--> Debouncing could have been added in search
 -> react-virtualized List, auto-sizer could have been used
 -> could have added responsiveness to the web app
 
@@ -33,6 +32,8 @@ TechStack used & the Dependencies:
 * react: v18.2.0
 * react-router-dom: v6.10.0
 * react-virtualized: v9.22.3
+
+Netlify Deployed Link: https://642c3dbb77490d15ee88a9cc--elaborate-elf-e33892.netlify.app/
 
 
 
