@@ -1,3 +1,43 @@
+1. What has been done?
+-> frontend Web application to create a mutual fund portfolio.
+-> mutualfund data is fetched from given api 
+-> rendered the huge data using "react-virtualized List" 
+-> Search and filter is implemented...users can search mutual funds
+-> onSearch users can select mutualfunds and can add it to the portfolio list
+-> an alert message is shown on successfully adding the mutual fund in portfolio list
+-> In portfolio list, on clicking details button popUp is displayed
+-> The pop up shows the following scheme details-
+● scheme name
+● fund house
+● Scheme category
+● Scheme type
+● Latest nav
+-> Users can increase or decrease the number of units of a mutual fund, onClicking Buy/Sell
+-> The portfolio page lists all mutual funds selected and total units currently available in the
+portfolio.
+-> popUp can be closed onClicking "X"
+-> web app is made as SPA(single page application) by using react-router-dom
+
+
+2. What more you would have done if you had more time, If there is anything.
+
+-> UI styling can be made better
+-> Debouncing could have been added in search
+-> react-virtualized List, auto-sizer could have been used
+-> could have added responsiveness to the web app
+
+3. Known bugs and limitations
+-> onClicking Sell, the available units value is decreasing but when it is 1, the mutualfund is not getting removed properly
+
+TechStack used & the Dependencies:
+* react: v18.2.0
+* react-router-dom: v6.10.0
+* react-virtualized: v9.22.3
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
