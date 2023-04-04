@@ -1,0 +1,59 @@
+.search-bar {
+  border: 2px solid rgb(175, 8, 241);
+  border-radius: 25px;
+  height: 50px;
+  width: 50%;
+  padding: 2px 23px 2px 30px;
+  outline: 0;
+  background-color: white;
+  color: black;
+  font-size: medium;
+}
+
+.list {
+  padding: 10px;
+}
+
+.row {
+  border-bottom: 1px solid #ebeced;
+  text-align: left;
+  margin: 5px 0;
+  display: flex;
+  align-items: center;
+}
+
+.content {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.list {
+  position: absolute;
+  left: 365px;
+}
+
+.portfolioList {
+  width: max-content;
+  height: max-content;
+  background-color: aquamarine;
+  border: 1px solid #006666;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 12px;
+  padding-right: 12px;
+  border-radius: 15px;
+
+  position: fixed;
+  right: 100px;
+  top: 65px;
+}
+
+.select {
+  background-color: rgb(134, 134, 245);
+  border: none;
+  border-radius: 20px;
+  width: 60px;
+  font-size: medium;
+}

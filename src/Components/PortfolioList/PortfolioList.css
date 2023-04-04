@@ -1,0 +1,64 @@
+.popUp {
+    width: 300px;
+    height: max-content;
+    border: 2px solid #346ccb;
+position: fixed;
+top: 10px;
+left: 50px;
+padding-top: 30px;
+border-radius: 25px;
+z-index: 10;
+/* box-shadow: ; */
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.buySell{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 30px;
+}
+
+.portfolio button {
+    background-color: rgb(110, 110, 247); /* Green */
+  border: none;
+  border-radius: 20px;
+  width: 100px;
+  font-size: medium;
+height: 40px;
+}
+
+.close {
+    position: absolute;
+    top: 20px;
+    right: 10px;
+    background-color: rgb(245, 106, 106);
+    border-color: red;
+}
+
+.buySell button {
+    background-color: #b3b300; /* Green */
+  border: none;
+  border-radius: 20px;
+  width: 60px;
+  font-size: medium;
+}
+
+.para{
+    display: flex;
+    flex-direction: column;
+   
+}
+
+.portfolio {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    width: 600px;
+    height: 500px;
+    margin-left: 32%;
+    margin-right: 20%;
+    border: 1px solid grey;
+    overflow: scroll;
+    overflow-x: hidden;
+}
